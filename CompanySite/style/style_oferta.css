@@ -1,0 +1,141 @@
+
+footer
+{
+    border-top: 2px solid rgb(0,150,150);
+    background-color: #101010;
+}
+
+a
+{
+    text-decoration: none;
+    color: #AAAAAA;
+}
+
+a:hover
+{
+    color: white;
+}
+
+.product-button:hover
+{
+    filter: brightness(85%);
+}
+
+.product-button > a
+{
+    display: block;
+    background-color: royalblue;
+    border-radius: 5px;
+    padding: 10% 0%;
+    text-align: center;
+}
+
+
+#container
+{
+    justify-content: center;
+    background-color: rgb(0,50,50);
+}
+
+#content-grid
+{
+    display: grid;
+    grid-template-columns: 90% 10%;
+    grid-template-rows: 100%;
+}
+
+.content-box
+{   
+    margin: 2%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    min-height: 80vh;
+    min-width: 80vh;
+}
+
+.product-box-1x
+{
+    border: 1px solid cyan;
+    align-content: center;
+    margin: 5px;
+    padding: 0% 10%;
+    font-size: 1.5vh;
+    text-align: center;
+    padding-top: 2%;
+    background-color: rgb(0,70,70);
+}
+
+.product-box-1x:hover
+{
+    margin: 0%;
+    color: white;
+    filter: brightness(110%);
+}
+
+.product-box-1x > h1
+{
+    font-size: 2vh;
+    margin-bottom: 5%;
+}
+
+.product-box-2x-h
+{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.product-box-2x-v
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.product-box-4x
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+.product-button-container
+{
+    display: flex;
+    margin-top: 3%;
+    flex-direction: row;
+    justify-content: space-around;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-button
+{
+    background-color: royalblue;
+    margin: 0% 5%;
+    border-radius: 5px;
+    min-width: 12vmin;
+}
+
+.horizontal-content-box
+{
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    min-width: 80vw;
+}
+
+.horizontal-product-box
+{
+    margin-top: 1%;
+    padding: 1% 1%;
+    max-width: 45%;
+    min-height: 10vh;
+    display: flex;
+}
+
+.horizontal-product-box > img{
+    height: 16vh;
+    width: 16vh;
+    margin-right: 3%;
+}

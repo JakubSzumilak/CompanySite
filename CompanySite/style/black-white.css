@@ -1,0 +1,60 @@
+body {
+    background-color: white;
+}
+
+body>* {
+    background-color: white;
+}
+
+nav {
+    background-color: white;
+    color: black;
+}
+
+nav>a {
+    color: black;
+}
+
+#nav-container>a {
+    color: black;
+}
+
+footer {
+    background-color: white;
+}
+
+footer>span {
+    color: black;
+}
+
+#main-content {
+    background-color: white;
+    color: black;
+}
+
+#content-box {
+    background-color: white;
+    color: black;
+}
+
+#container {
+    background-color: white;
+    color: black;
+}
+
+#container > * {
+    background-color: white;
+    color: black;
+}
+
+.product-box-1x, .product-box-4x, .product-box-2x-h, .product-box-2x-v {
+    color: white;
+}
+
+header h1, header h2 {
+    color: white;
+}
+
+.StayBlack {
+    color: black;
+}

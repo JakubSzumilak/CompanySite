@@ -1,0 +1,58 @@
+:root {
+    --background-color: #101010;
+    --text-color: #AAAAAA;
+    --primary-color: #ff8000;
+    --primary-color-bright: #faa14d;
+    --primary-color-dark: #5c2d02;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 10vh 40vw;
+}
+
+input {
+
+    background-color: var(--primary-color-dark);
+    border: 1px solid var(--primary-color-bright);
+    color: var(--primary-color);
+}
+
+input[type=file] {
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--primary-color-dark);
+    border: 1px solid var(--primary-color-bright);
+    color: var(--primary-color);
+}
+
+label {
+    color: var(--primary-color);
+}
+
+#input-flex {
+    display: flex;
+    gap: 5%;
+}
+
+#ComebackButton
+{
+    background-color: var(--primary-color-dark);
+    border: 1px solid var(--primary-color-bright);
+    height: auto;
+    max-width: 40%;
+    border-radius: 10px;
+}
+
+#ComebackButton > a {
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    color: var(--primary-color);
+}

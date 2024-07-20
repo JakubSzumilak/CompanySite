@@ -1,0 +1,1 @@
+In order for the site to work properly you first need to import the database, in order to do that, create a database with the name BazaTemp1 (or change the name in login.php) then upload the file BazaTemp1.sql
